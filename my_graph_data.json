@@ -1,32 +1,41 @@
 {
-	"nodes": [{
-		"name": "1",
-		"group": "tuple"
-	}, {
-		"name": "2",
-		"group": "tuple"
-	}, {
-		"name": "3",
-		"group": "pattern"
-	}, {
-		"name": "p4",
-		"group": "pattern"
-	}],
-	"links": [{
-		"source": 0,
-		"target": 1,
-		"value": 1
-	},{
-		"source": 0,
-		"target": 2,
-		"value": 5
-	},{
-		"source": 1,
-		"target": 2,
-		"value": 20
-	},{
-		"source": 1,
-		"target": 3,
-		"value": 20
-	}]
+	"nodes": [
+		{"name":"本國憲法","group":"class"},
+		{"name":"中國古代歷史人物","group":"class"},
+		{"name":"海洋科學概論","group":"class"},
+		{"name":"戲曲後花園","group":"class"},
+		{"name":"國家與社會發展","group":"class"},
+		{"name":"鋼琴作品賞析","group":"class"},
+		{"name":"台灣現代詩","group":"class"},
+		{"name":"現代主義小說","group":"class"},
+		{"name":"職場倫理與職場精神","group":"class"},
+		{"name":"現代生物科技與健康","group":"class"},
+		{"name":"鋼琴作品賞析","group":"class"},
+		{"name":"經濟學一","group":"class"},
+		{"name":"統計與生活","group":"class"},
+		{"name":"從電影藝術看生死倫理","group":"class"},
+		{"name":"日本近代歷史與人物","group":"class"},
+		{"name":"台灣歷史與人物","group":"class"},
+		{"name":"從電影藝術看生死倫理","group":"class"},
+		{"name":"工作休閒之理論與實踐","group":"class"},
+		{"name":"甜涼","group":"attribute"},
+		{"name":"有意義","group":"attribute"},
+		{"name":"要點名","group":"attribute"},
+		{"name":"有考試","group":"attribute"},
+		{"name":"不考試","group":"attribute"},
+		{"name":"低負載","group":"attribute"},
+		{"name":"中負載","group":"attribute"},
+		{"name":"千字文","group":"attribute"},
+		{"name":"考試慘","group":"attribute"},
+		{"name":"未開課","group":"attribute"}
+	],
+	"links": [
+		{"source": 0, "target": 18, "value": 1},
+		{"source": 0, "target": 20, "value": 1},
+		{"source": 0, "target": 22, "value": 1},
+		{"source": 0, "target": 23, "value": 1},
+		{"source": 1, "target": 19, "value": 1},
+		{"source": 1, "target": 21, "value": 1},
+		{"source": 1, "target": 23, "value": 1},
+	]
 }
